@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTOFINCOMP</title>
+    <link rel="icon" href="img/About.jpeg">
+    <!--Link To Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<!-- Agrega el script de Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <!--Nav Container-->
+        <div class="nav container">
+            <!--Menu Icon-->
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <!--Logo-->
+            <a href="#" class="logo">AUTOFIN<span>COMP</span></a>
+            <!--Navbar List-->
+            <ul class="navbar">
+                <li><a href="#parts" class="active">Inicio</a></li>
+                <li class="dropdown autos"> <!-- Agregar la clase 'autos' para la lista desplegable de autos -->
+                    <a href="#" class="dropdown-toggle">Autos</a>
+                    <div class="dropdown-content"> <!-- Agregar la lista desplegable dentro del elemento li -->
+                        <a href="BMW.html">BMW</a>
+                        <a href="Toyota.html">TOYOTA</a>
+                        <a href="Nissan.html">NISSAN</a>
+                        <a href="Mazda.html">MAZDA</a>
+                    </div>
+                </li>
+                <li><a href="https://wa.me/529621882433">Contacto</a></li>
+
+            </ul>
+            <!--search Icon-->
+            <i class='bx bx-search' id="search-icon"></i>
+            <!--search Box-->
+            <div class="search-box container">
+                <input type="search" name="" id="" placeholder="Search here...">
+            </div>
+        </div>
+    </header>
+    <!--Home section-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Seminuevo  <br> como <span>nuevo</span> </h1>
+            <br></br>
+            <!--home Button-->
+            <a href="#about" class="btn">Conocenos</a>
+        </div>
+
+    </section>
+    <!--cars section-->
+   
+    <!--About-->
+    <section>
+        <section class="about container" id="about">
+            <div class="about-img">
+                <img src="img/About.jpeg" alt="">
+            </div>
+            <div class="about-text">
+                
+                <h2>¡Esperamos servirte pronto!</h2>
+                <p>Bienvenido a AUTOFINCOMP, tu destino confiable para la compra de autos seminuevos de calidad. En AUTOFINCOMP, nos enorgullecemos de ofrecer una amplia selección de vehículos seminuevos que han sido cuidadosamente inspeccionados y certificados para garantizar la satisfacción del cliente..</p>
+                <!--About Button-->
+                
+            </div>
+        </section>
+    </section>
+    <!--parts section-->
+    <section class="parts" id="parts">
+        <div class="heading">
+            <span></span>
+            <h2>Variedad de marcas</h2>
+            <p>Desliza o toca los botones laterales</p>
+            <br></br>   
+        </div>
+        <!-- Parts Slider Container -->
+        <div class="parts-slider swiper-container">
+            <div class="swiper-wrapper">
+                <!--Box 1-->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/Toyota.png" alt="">
+                    </div>
+                </div>
+    
+                <!--Box 2-->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/Nissan.png" alt="">
+                        
+                       
+                        
+                       
+                    </div>
+                </div>
+                <br></br>
+                <!--Box 3-->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/Mazda.png" alt="">
+                        
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/BMW.png" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Flecha de navegación izquierda -->
+            <div class="swiper-button-prev"></div>
+            <!-- Flecha de navegación derecha -->
+            <div class="swiper-button-next"></div>
+            <!-- Paginación -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+    
+    
+    <!--footer-->
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo">AUTOFIN<span>COMP</span></a>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                   
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Paginas</h3>
+                <a href="#">Inicio</a>
+                <a href="#">Autos</a>
+                <a href="#">Contactanos</a>
+                
+            </div>
+
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#">Privacidad</a>
+                <a href="#">Refund Policy</a>
+                
+            </div>
+
+            <div class="footer-box">
+                <h3>Contacto</h3>
+               <p>Tapachula Chiapas</p>
+               <p>AUTOFINCOMP@gmail.com</p>
+         
+               
+            </div>
+        </div>
+    </section>
+
+    <!--Copyright-->
+    
+
+    <!--Link To JS-->
+    <script src="main.js"></script>
+    
+    
+</body>
+</html>

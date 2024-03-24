@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTOFINCOMP</title>
+    <link rel="stylesheet" href="../Toyota/styleT.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <a href="#" class="logo">AUTOFIN<span>COMP</span></a>
+            <ul class="navbar">
+            </ul>
+            <i class='bx bx-search' id="search-icon"></i>
+            <div class="search-box container">
+                <input type="search" name="" id="" placeholder="Search here...">
+            </div>
+        </div>
+    </header>
+    <section class="cars" id="cars">
+        <div class="heading">
+            <img src="../img/BMW.png" alt="Toyota Logo" style="width: 85px; height: auto; margin-left: 20px;">
+            <h1 style="margin-left: 20px;">M2</h1>
+        </div>
+        <div class="car-photos">
+            <div class="photo-frame">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="../img/M2Exterior.png" alt="Exterior">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="../img/M2Interior.jpg" alt="Interior">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <!-- Sección de Descripción del Carro -->
+    <section class="car-description">
+        <div class="container">
+            <h2>Descripción del Carro</h2>
+            <div class="price">
+                <h3></h3>
+                <p>$630,000</p>
+            </div>
+            <div class="details">
+                <h3>Detalles</h3>
+                <ul>
+                    <li><strong>Marca:</strong> BMW</li>
+                    <li><strong>Modelo:</strong> M2</li>
+                    <li><strong>Versión:</strong> Competition</li>
+                    <li><strong>Año:</strong> 2020</li>
+                    <li><strong>Kilometraje:</strong> 32,000</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Financiamiento -->
+    <section class="financing-section">
+        <div class="container">
+            <h2>Financia tu auto</h2>
+            <div class="financing-form">
+                <div class="form-group">
+                    <label for="financingAmount">Enganche:</label>
+                    <input type="number" id="financingAmount" name="financingAmount" min="0" step="1000" placeholder="Ingrese el enganche...">
+                </div>
+                <div class="form-group">
+                    <label for="months">Selecciona los meses:</label>
+                    <select id="months" name="months">
+                        <option value="12">12 meses</option>
+                        <option value="16">16 meses</option>
+                        <option value="24">24 meses</option>
+                    </select>
+                </div>
+                <button type="button" id="calculateButton">Calcular mensualidad</button>
+            </div>
+            <div class="result-container">
+                <h3>Monto Mensual:</h3>
+                <div id="monthlyPaymentAmount" class="payment-amount">0.00</div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo">AUTOFIN<span>COMP</span></a>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Páginas</h3>
+                <a href="../index.html">Inicio</a>
+                <a href="../BMW.html">Autos</a>
+                <a href="#">Contactos</a>
+            </div>
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#">Privacidad</a>
+                <a href="#">Refund Policy</a>
+            </div>
+            <div class="footer-box">
+                <h3>Contacto</h3>
+               <p>Tapachula Chiapas</p>
+               <p>AUTOFINCOMP@gmail.com</p>
+               
+            </div>
+        </div>
+    </section>
+    
+    <a href="https://wa.me/529621882433" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="m2.js"></script>
+    
+</body>
+</html> 
